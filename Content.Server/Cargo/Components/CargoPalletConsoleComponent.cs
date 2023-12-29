@@ -9,5 +9,5 @@ namespace Content.Server.Cargo.Components;
 public sealed partial class CargoPalletConsoleComponent : Component
 {
     [ViewVariables(VVAccess.ReadWrite), DataField("cashType", customTypeSerializer:typeof(PrototypeIdSerializer<StackPrototype>))]
-    public string CashType = "Credit";
+    public string CashType = "Credits";
 }

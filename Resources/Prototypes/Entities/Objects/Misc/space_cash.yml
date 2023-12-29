@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: SpaceCash
-  name: spesos
-  description: You gotta have money.
+  name: credits
+  description: A plastic credit chip containing Standard Terran Credits, a scrapmetal-backed currency.
   components:
   - type: Currency
     price:
