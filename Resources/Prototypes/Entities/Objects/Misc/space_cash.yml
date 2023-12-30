@@ -23,10 +23,10 @@
     - credits_100
     - credits_500
     - credits_1000
-    - credits_1000000
+    - cash_1000000
   - type: Sprite
     sprite: Objects/Economy/credits.rsi
-    state: cash
+    state: credits
     layers:
     - state: cash
       map: ["base"]
