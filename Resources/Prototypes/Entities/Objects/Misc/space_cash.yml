@@ -28,7 +28,7 @@
     sprite: Objects/Economy/credits.rsi
     state: credits
     layers:
-    - state: cash
+    - state: credits
       map: ["base"]
   - type: Physics
     bodyType: Dynamic
@@ -46,16 +46,16 @@
 
 - type: material
   id: Credit
-  name: speso
+  name: credit
   unit: materials-unit-bill
   stackEntity: SpaceCash
-  icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
+  icon: { sprite: /Textures/Objects/Economy/credits.rsi, state: credits }
   price: 1
 
 - type: stack
   id: Credit
-  name: speso
-  icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
+  name: credit
+  icon: { sprite: /Textures/Objects/Economy/credits.rsi, state: credits }
   spawn: SpaceCash
 
 - type: entity
