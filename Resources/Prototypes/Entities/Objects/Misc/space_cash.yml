@@ -18,14 +18,14 @@
     count: 1
     baseLayer: base
     layerStates:
-    - cash
-    - cash_10
-    - cash_100
-    - cash_500
-    - cash_1000
-    - cash_1000000
+    - credits
+    - credits_10
+    - credits_100
+    - credits_500
+    - credits_1000
+    - credits_1000000
   - type: Sprite
-    sprite: Objects/Economy/cash.rsi
+    sprite: Objects/Economy/credits.rsi
     state: cash
     layers:
     - state: cash
