@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: SpaceCash
-  name: credits
-  description: A plastic credit chip containing Standard Terran Credits, a scrapmetal-backed currency.
+  name: spesos
+  description: You gotta have money.
   components:
   - type: Currency
     price:
@@ -18,17 +18,17 @@
     count: 1
     baseLayer: base
     layerStates:
-    - credits
-    - credits_10
-    - credits_100
-    - credits_500
-    - credits_1000
+    - cash
+    - cash_10
+    - cash_100
+    - cash_500
+    - cash_1000
     - cash_1000000
   - type: Sprite
-    sprite: Objects/Economy/credits.rsi
-    state: credits
+    sprite: Objects/Economy/cash.rsi
+    state: cash
     layers:
-    - state: credits
+    - state: cash
       map: ["base"]
   - type: Physics
     bodyType: Dynamic
@@ -46,16 +46,16 @@
 
 - type: material
   id: Credit
-  name: credit
+  name: speso
   unit: materials-unit-bill
   stackEntity: SpaceCash
-  icon: { sprite: /Textures/Objects/Economy/credits.rsi, state: credits }
+  icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
   price: 1
 
 - type: stack
   id: Credit
-  name: credit
-  icon: { sprite: /Textures/Objects/Economy/credits.rsi, state: credits }
+  name: speso
+  icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
   spawn: SpaceCash
 
 - type: entity
