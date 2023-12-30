@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: SpaceCash
-  name: spesos
-  description: You gotta have money.
+  name: credits
+  description: A plastic credit chip containing Standard Sol Credits. Makes the world go round.
   components:
   - type: Currency
     price:
