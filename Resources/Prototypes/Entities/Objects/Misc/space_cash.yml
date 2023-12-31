@@ -6,7 +6,7 @@
   components:
   - type: Currency
     price:
-      Speso: 1
+      Credit: 1
   - type: Material
   - type: PhysicalComposition
     materialComposition:
@@ -46,7 +46,7 @@
 
 - type: material
   id: Credit
-  name: speso
+  name: credit
   unit: materials-unit-bill
   stackEntity: SpaceCash
   icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
@@ -54,7 +54,7 @@
 
 - type: stack
   id: Credit
-  name: speso
+  name: credit
   icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
   spawn: SpaceCash
 
