@@ -1,0 +1,28 @@
+- type: vessel
+  id: Carrion
+  name: SHI Carrion
+  description: A cheap, mass-produced cargo vessel and salvaging platform.
+  price: 1
+  category: Small
+  group: Civilian
+  shuttlePath: /Maps/Shuttles/carrion.yml
+
+- type: gameMap
+  id: Carrion
+  mapName: 'SHI Carrion'
+  mapPath: /Maps/Shuttles/carrion.yml
+  minPlayers: 0
+  stations:
+    Carrion:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Carrion {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            Quartermaster: [ 0, 0 ]
+            CargoTechnician: [ 0, 0 ]
