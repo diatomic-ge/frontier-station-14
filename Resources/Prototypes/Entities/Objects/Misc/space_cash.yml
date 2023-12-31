@@ -2,7 +2,7 @@
   parent: BaseItem
   id: SpaceCash
   name: credits
-  description: A plastic credit chip containing Standard Terran Credits, a scrapmetal-backed currency.
+  description: A plastic credit chip containing Standard Sol Credits. Makes the world go round.
   components:
   - type: Currency
     price:
