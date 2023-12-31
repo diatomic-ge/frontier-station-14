@@ -64,77 +64,115 @@ entities:
             3: 0,0
             4: 2,3
             5: 2,2
-            8: 4,3
-            9: 4,2
-            10: 4,1
-            11: 4,0
-            42: 2,1
+            6: 4,3
+            7: 4,2
+            8: 4,1
+            9: 4,0
+            38: 2,1
         - node:
             color: '#D58C1892'
             id: BrickTileWhiteLineS
           decals:
-            18: 0,-1
-            19: 1,-1
-            20: 1,-1
-            21: 2,-1
-            22: 3,-1
-            23: 0,-1
-            24: 2,-1
-            25: 3,-1
+            14: 0,-1
+            15: 1,-1
+            16: 1,-1
+            17: 2,-1
+            18: 3,-1
+            19: 0,-1
+            20: 2,-1
+            21: 3,-1
         - node:
             color: '#D58C1892'
             id: BrickTileWhiteLineW
           decals:
-            14: 6,3
-            15: 6,2
-            16: 6,1
-            17: 6,0
+            10: 6,3
+            11: 6,2
+            12: 6,1
+            13: 6,0
         - node:
             color: '#FFFFFFFF'
             id: DirtHeavy
           decals:
-            34: 7,2
-            35: 6,1
+            30: 7,2
+            31: 6,1
         - node:
             color: '#FFFFFFFF'
             id: DirtHeavyMonotile
           decals:
-            26: 2,0
-            27: 3,1
-            28: 2,1
-            29: 1,2
-            30: 1,1
-            31: 3,5
-            32: 3,6
-            33: 3,7
-            37: 1,-1
-            38: 0,-1
-            39: 1,10
-            40: 2,9
-            41: 2,10
+            22: 2,0
+            23: 3,1
+            24: 2,1
+            25: 1,2
+            26: 1,1
+            27: 3,5
+            28: 3,6
+            29: 3,7
+            33: 1,-1
+            34: 0,-1
+            35: 1,10
+            36: 2,9
+            37: 2,10
         - node:
             color: '#FFFFFFFF'
             id: DirtLight
           decals:
-            36: 7,1
+            32: 7,1
       type: DecalGrid
     - version: 2
       data:
         tiles:
           0,0:
-            0: 51
+            0: 65535
           -1,0:
-            0: 136
+            0: 52428
           -1,-1:
-            0: 32768
+            0: 34816
           0,-1:
-            0: 12288
+            0: 65280
+          0,1:
+            0: 65535
+          0,2:
+            0: 64511
+            1: 1024
+          0,3:
+            0: 15
+          1,0:
+            0: 65527
+          1,1:
+            0: 30519
+          1,2:
+            0: 19
+          2,0:
+            0: 4368
+          -1,1:
+            0: 8
+          -1,2:
+            0: 34944
+          -1,3:
+            0: 8
+          1,-1:
+            0: 12544
         uniqueMixes:
         - volume: 2500
           temperature: 293.15
           moles:
           - 21.824879
           - 82.10312
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.14996
+          moles:
+          - 20.078888
+          - 75.53487
           - 0
           - 0
           - 0
@@ -891,18 +929,60 @@ entities:
       pos: 3.5,10.5
       parent: 1
       type: Transform
+    - air:
+        volume: 200
+        immutable: False
+        temperature: 293.1496
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      type: EntityStorage
     - containers:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
           ents:
-          - 128
+          - 275
           - 123
-          - 124
           - 125
+          - 128
           - 126
+          - 124
+          - 274
           - 127
       type: ContainerContainer
+- proto: ClothingHandsGlovesColorBlack
+  entities:
+  - uid: 275
+    components:
+    - flags: InContainer
+      type: MetaData
+    - parent: 122
+      type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
+- proto: ClothingHeadHatCorpsoft
+  entities:
+  - uid: 274
+    components:
+    - flags: InContainer
+      type: MetaData
+    - parent: 122
+      type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
 - proto: ClothingHeadHatQMsoft
   entities:
   - uid: 34

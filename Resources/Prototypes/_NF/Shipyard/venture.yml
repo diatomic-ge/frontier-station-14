@@ -1,0 +1,29 @@
+- type: vessel
+  id: Venture
+  name: SHI Venture
+  description: A well-stocked mining barge for seasoned industrial captains. Comes with a fully stocked break room and dual-engined engineering bay.
+  price: 1
+  category: Small
+  group: Civilian
+  shuttlePath: /Maps/Shuttles/venture.yml
+
+- type: gameMap
+  id: Venture
+  mapName: 'SHI Venture'
+  mapPath: /Maps/Shuttles/venture.yml
+  minPlayers: 0
+  stations:
+    Venture:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Venture {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            SalvageSpecialist: [ 0, 0 ]
+            Quartermaster: [ 0, 0 ]
+            StationEngineer: [ 0, 0 ]
