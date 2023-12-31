@@ -1,7 +1,7 @@
 - type: vessel
   id: Carrion
   name: SHI Carrion
-  description: A cheap, mass-produced mining corvette. The tomb of many aspiring miners.
+  description: A cheap, mass-produced cargo vessel and salvaging platform.
   price: 1
   category: Small
   group: Civilian
