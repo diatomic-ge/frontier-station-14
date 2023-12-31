@@ -1,0 +1,27 @@
+- type: vessel
+  id: Exhumer
+  name: SHI Exhumer
+  description: A cheap, mass-produced mining corvette. The tomb of many aspiring miners.
+  price: 1
+  category: Small
+  group: Civilian
+  shuttlePath: /Maps/Shuttles/exhumer.yml
+
+- type: gameMap
+  id: Exhumer
+  mapName: 'SHI Exhumer'
+  mapPath: /Maps/Shuttles/exhumer.yml
+  minPlayers: 0
+  stations:
+    Exhumer:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Exhumer {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            SalvageSpecialist: [ 0, 0 ]
