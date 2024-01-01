@@ -1,1 +1,1 @@
-﻿tips-system-chat-message-wrap = Tip: {$tip}
+﻿tips-system-chat-message-wrap = Tip: I'm the only one you can trust around here.
