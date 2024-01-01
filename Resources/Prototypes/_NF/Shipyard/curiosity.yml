@@ -1,0 +1,27 @@
+- type: vessel
+  id: Curiosity
+  name: BIO Curiosity
+  description: A small rover corvette with a sophisticated RnD and anomaly research bay. Doesn't come configured.
+  price: 1
+  category: Small
+  group: Civilian
+  shuttlePath: /Maps/Shuttles/curiosity.yml
+
+- type: gameMap
+  id: Curiosity
+  mapName: 'BIO Curiosity'
+  mapPath: /Maps/Shuttles/curiosity.yml
+  minPlayers: 0
+  stations:
+    Curiosity:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Curiosity {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            Scientist: [ 0, 0 ]
