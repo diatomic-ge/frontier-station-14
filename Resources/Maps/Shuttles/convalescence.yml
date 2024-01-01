@@ -279,7 +279,7 @@ entities:
       pos: 1.5,3.5
       parent: 1
       type: Transform
-    - secondsUntilStateChange: -419.45734
+    - secondsUntilStateChange: -449.6337
       state: Opening
       type: Door
   - uid: 66
@@ -288,7 +288,7 @@ entities:
       pos: 3.5,3.5
       parent: 1
       type: Transform
-    - secondsUntilStateChange: -1807.4852
+    - secondsUntilStateChange: -1837.6616
       state: Opening
       type: Door
 - proto: AirTankFilled
@@ -340,6 +340,13 @@ entities:
     components:
     - rot: 1.5707963267948966 rad
       pos: -1.5,7.5
+      parent: 1
+      type: Transform
+- proto: AtmosDeviceFanTiny
+  entities:
+  - uid: 519
+    components:
+    - pos: -0.5,-2.5
       parent: 1
       type: Transform
 - proto: BenchSteelLeft
@@ -2964,7 +2971,7 @@ entities:
       pos: 8.5,5.5
       parent: 1
       type: Transform
-    - nextDrop: 2237.9509161
+    - nextDrop: 2263.5816204
       type: DeadDrop
 - proto: PottedPlant29
   entities:
