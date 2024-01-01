@@ -72,14 +72,14 @@ entities:
             color: '#EFB34196'
             id: BotLeft
           decals:
-            54: 1,-1
-            55: 1,-2
+            53: 1,-1
+            54: 1,-2
         - node:
             color: '#EFB34196'
             id: BotRight
           decals:
-            56: -1,-1
-            57: -1,-2
+            55: -1,-1
+            56: -1,-2
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteCornerNe
@@ -90,7 +90,7 @@ entities:
             color: '#334E6DC8'
             id: BrickTileWhiteCornerNw
           decals:
-            48: 1,6
+            47: 1,6
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteCornerNw
@@ -101,12 +101,12 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteCornerNw
           decals:
-            27: 5,6
+            26: 5,6
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteCornerSe
           decals:
-            50: 3,5
+            49: 3,5
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteCornerSe
@@ -116,13 +116,13 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteCornerSe
           decals:
-            36: 7,6
-            45: 6,3
+            35: 7,6
+            44: 6,3
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteCornerSw
           decals:
-            49: 1,5
+            48: 1,5
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteCornerSw
@@ -133,17 +133,17 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteCornerSw
           decals:
-            44: 5,3
+            43: 5,3
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteEndN
           decals:
-            46: 3,7
+            45: 3,7
         - node:
             color: '#EFB34196'
             id: BrickTileWhiteEndN
           decals:
-            28: 7,11
+            27: 7,11
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteInnerNe
@@ -153,7 +153,7 @@ entities:
             color: '#334E6DC8'
             id: BrickTileWhiteInnerNw
           decals:
-            53: 3,6
+            52: 3,6
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteInnerNw
@@ -163,12 +163,12 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteInnerNw
           decals:
-            38: 7,6
+            37: 7,6
         - node:
             color: '#EFB34196'
             id: BrickTileWhiteInnerSe
           decals:
-            39: 6,6
+            38: 6,6
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteInnerSw
@@ -178,7 +178,7 @@ entities:
             color: '#334E6DC8'
             id: BrickTileWhiteLineE
           decals:
-            51: 3,6
+            50: 3,6
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteLineE
@@ -189,27 +189,27 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteLineE
           decals:
-            29: 7,10
-            30: 7,9
-            31: 7,8
-            35: 7,7
-            40: 6,5
-            41: 6,4
+            28: 7,10
+            29: 7,9
+            30: 7,8
+            34: 7,7
+            39: 6,5
+            40: 6,4
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteLineN
           decals:
-            47: 2,6
+            46: 2,6
         - node:
             color: '#EFB34196'
             id: BrickTileWhiteLineN
           decals:
-            37: 6,6
+            36: 6,6
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteLineS
           decals:
-            52: 2,5
+            51: 2,5
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteLineS
@@ -224,11 +224,11 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteLineW
           decals:
-            32: 7,10
-            33: 7,9
-            34: 7,8
-            42: 5,5
-            43: 5,4
+            31: 7,10
+            32: 7,9
+            33: 7,8
+            41: 5,5
+            42: 5,4
         - node:
             color: '#EFB34196'
             id: Delivery
@@ -251,13 +251,67 @@ entities:
       data:
         tiles:
           0,0:
-            0: 3
+            0: 65535
           -1,0:
-            0: 76
+            0: 65535
           -1,-1:
-            0: 49152
+            0: 65535
           0,-1:
-            0: 12288
+            0: 65535
+          0,1:
+            0: 61439
+          0,2:
+            0: 12
+          1,0:
+            0: 65399
+          1,1:
+            0: 65535
+          1,2:
+            0: 61167
+          1,3:
+            0: 206
+          2,0:
+            0: 4352
+          2,1:
+            0: 12561
+          2,2:
+            0: 13107
+          2,3:
+            0: 17
+          -3,0:
+            0: 36040
+          -3,1:
+            0: 52424
+          -3,2:
+            0: 52428
+          -3,3:
+            0: 52428
+          -2,0:
+            0: 65535
+          -2,1:
+            0: 65535
+          -2,2:
+            0: 65535
+          -2,3:
+            0: 65535
+          -1,1:
+            0: 16383
+          -1,2:
+            0: 4915
+          -1,3:
+            0: 17
+          -3,-1:
+            0: 32768
+          -2,-1:
+            0: 65534
+          1,-1:
+            0: 4368
+          -3,4:
+            0: 140
+          -2,4:
+            0: 65535
+          -2,5:
+            0: 35022
         uniqueMixes:
         - volume: 2500
           temperature: 293.15
@@ -325,7 +379,7 @@ entities:
     - pos: 0.5,2.5
       parent: 1
       type: Transform
-    - secondsUntilStateChange: -2176.3079
+    - secondsUntilStateChange: -2296.106
       state: Opening
       type: Door
   - uid: 39
@@ -2203,6 +2257,64 @@ entities:
     - pos: -8.666325,13.993858
       parent: 1
       type: Transform
+- proto: EmergencyLight
+  entities:
+  - uid: 611
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: 5.5,5.5
+      parent: 1
+      type: Transform
+  - uid: 612
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: 7.5,10.5
+      parent: 1
+      type: Transform
+  - uid: 617
+    components:
+    - pos: -4.5,4.5
+      parent: 1
+      type: Transform
+  - uid: 618
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: -1.5,-2.5
+      parent: 1
+      type: Transform
+  - uid: 619
+    components:
+    - pos: -0.5,1.5
+      parent: 1
+      type: Transform
+  - uid: 621
+    components:
+    - pos: 3.5,3.5
+      parent: 1
+      type: Transform
+  - uid: 622
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: 3.5,5.5
+      parent: 1
+      type: Transform
+  - uid: 628
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: -8.5,14.5
+      parent: 1
+      type: Transform
+  - uid: 629
+    components:
+    - pos: -6.5,18.5
+      parent: 1
+      type: Transform
+  - uid: 630
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: -4.5,9.5
+      parent: 1
+      type: Transform
 - proto: EmergencyRollerBedSpawnFolded
   entities:
   - uid: 581
@@ -3019,6 +3131,90 @@ entities:
       parent: 1
       type: Transform
     - type: ItemCooldown
+- proto: Poweredlight
+  entities:
+  - uid: 609
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: 7.5,9.5
+      parent: 1
+      type: Transform
+  - uid: 610
+    components:
+    - pos: 6.5,6.5
+      parent: 1
+      type: Transform
+  - uid: 613
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: 5.5,1.5
+      parent: 1
+      type: Transform
+  - uid: 614
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: 2.5,-1.5
+      parent: 1
+      type: Transform
+  - uid: 615
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: -1.5,-1.5
+      parent: 1
+      type: Transform
+  - uid: 616
+    components:
+    - pos: -5.5,4.5
+      parent: 1
+      type: Transform
+  - uid: 620
+    components:
+    - pos: 0.5,3.5
+      parent: 1
+      type: Transform
+  - uid: 623
+    components:
+    - rot: 3.141592653589793 rad
+      pos: 3.5,5.5
+      parent: 1
+      type: Transform
+  - uid: 624
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: -7.5,10.5
+      parent: 1
+      type: Transform
+  - uid: 625
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: -4.5,8.5
+      parent: 1
+      type: Transform
+  - uid: 626
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: -7.5,12.5
+      parent: 1
+      type: Transform
+  - uid: 627
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: -6.5,15.5
+      parent: 1
+      type: Transform
+- proto: PoweredSmallLight
+  entities:
+  - uid: 631
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: -6.5,18.5
+      parent: 1
+      type: Transform
+  - uid: 632
+    components:
+    - pos: -8.5,-0.5
+      parent: 1
+      type: Transform
 - proto: Rack
   entities:
   - uid: 580
@@ -3706,12 +3902,8 @@ entities:
           pitchscale: 1
           volume: 0
           attenuation: Default
-        path: /Audio/Items/jaws_cut.ogg
-      qualities:
-      - Cutting
+        path: /Audio/Items/jaws_pry.ogg
       type: Tool
-    - enabled: False
-      type: Prying
 - proto: trayScanner
   entities:
   - uid: 288
