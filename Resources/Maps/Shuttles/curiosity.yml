@@ -74,12 +74,64 @@ entities:
       data:
         tiles:
           0,0:
-            0: 51
+            0: 65535
           -1,0:
-            0: 136
+            0: 65534
           0,-1:
-            0: 12288
+            0: 28672
           -1,-1:
+            0: 49152
+          0,1:
+            0: 63295
+          0,2:
+            0: 30711
+          0,3:
+            0: 547
+          1,0:
+            0: 65535
+          1,1:
+            0: 64719
+          1,2:
+            0: 61180
+          1,3:
+            0: 3310
+          2,0:
+            0: 65535
+          2,1:
+            0: 65535
+          2,2:
+            0: 65535
+          2,3:
+            0: 887
+          3,0:
+            0: 4368
+          3,1:
+            0: 4369
+          3,2:
+            0: 17
+          -3,1:
+            0: 61132
+          -3,2:
+            0: 61166
+          -3,3:
+            0: 2188
+          -3,0:
+            0: 34816
+          -2,0:
+            0: 65520
+          -2,1:
+            0: 32639
+          -2,2:
+            0: 65407
+          -2,3:
+            0: 2047
+          -1,1:
+            0: 61326
+          -1,2:
+            0: 53231
+          -1,3:
+            0: 8
+          2,-1:
             0: 32768
         uniqueMixes:
         - volume: 2500
@@ -1647,14 +1699,9 @@ entities:
       type: Transform
 - proto: CrateArtifactContainer
   entities:
-  - uid: 273
+  - uid: 125
     components:
-    - pos: -6.5,9.5
-      parent: 1
-      type: Transform
-  - uid: 274
-    components:
-    - pos: -6.5,10.5
+    - pos: -8.5,8.5
       parent: 1
       type: Transform
 - proto: CrateUranium
@@ -2541,30 +2588,6 @@ entities:
     - pos: 7.5,8.5
       parent: 1
       type: Transform
-- proto: Railing
-  entities:
-  - uid: 122
-    components:
-    - pos: -4.5,8.5
-      parent: 1
-      type: Transform
-  - uid: 123
-    components:
-    - pos: -3.5,8.5
-      parent: 1
-      type: Transform
-  - uid: 124
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -4.5,8.5
-      parent: 1
-      type: Transform
-  - uid: 125
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -3.5,8.5
-      parent: 1
-      type: Transform
 - proto: RailingCorner
   entities:
   - uid: 233
@@ -2579,30 +2602,11 @@ entities:
       pos: -1.5,11.5
       parent: 1
       type: Transform
-- proto: RailingCornerSmall
-  entities:
-  - uid: 128
-    components:
-    - pos: -2.5,8.5
-      parent: 1
-      type: Transform
-  - uid: 129
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -2.5,8.5
-      parent: 1
-      type: Transform
 - proto: RailingRound
   entities:
   - uid: 126
     components:
     - pos: -2.5,7.5
-      parent: 1
-      type: Transform
-  - uid: 127
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -2.5,9.5
       parent: 1
       type: Transform
 - proto: ReinforcedPlasmaWindow
@@ -2927,6 +2931,20 @@ entities:
     - pos: 11.5,2.5
       parent: 1
       type: Transform
+- proto: SpawnPointLatejoin
+  entities:
+  - uid: 122
+    components:
+    - pos: -0.5,3.5
+      parent: 1
+      type: Transform
+- proto: SpawnPointScientist
+  entities:
+  - uid: 124
+    components:
+    - pos: 8.5,9.5
+      parent: 1
+      type: Transform
 - proto: SubstationBasic
   entities:
   - uid: 286
@@ -3057,14 +3075,6 @@ entities:
       type: Transform
     - canCollide: False
       type: Physics
-- proto: VehicleKeyATV
-  entities:
-  - uid: 303
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -8.258909,8.826879
-      parent: 1
-      type: Transform
 - proto: VendingMachineChang
   entities:
   - uid: 247
@@ -3700,6 +3710,13 @@ entities:
   - uid: 312
     components:
     - pos: 9.5,11.5
+      parent: 1
+      type: Transform
+- proto: WarpPointShip
+  entities:
+  - uid: 123
+    components:
+    - pos: 0.5,2.5
       parent: 1
       type: Transform
 - proto: Welder
