@@ -1,0 +1,31 @@
+- type: vessel
+  id: Condor
+  name: SHI Condor
+  description: A medium-sized hauling freighter with a robust engineering bay and amenities.
+  price: 1
+  category: Medium
+  group: Civilian
+  shuttlePath: /Maps/Shuttles/condor.yml
+
+- type: gameMap
+  id: Condor
+  mapName: 'SHI Condor'
+  mapPath: /Maps/Shuttles/condor.yml
+  minPlayers: 0
+  stations:
+    Condor:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'SHI Condor {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            Quartermaster: [ 0, 0 ]
+            CargoTechnician: [ 0, 0 ]
+            ChiefEngineer: [ 0, 0 ]
+            Cyborg: [ 0, 0 ]
+            Paramedic: [ 0, 0 ]

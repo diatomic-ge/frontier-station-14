@@ -1,0 +1,28 @@
+- type: vessel
+  id: Warbird
+  name: NCWL Warbird
+  description: A cheap, mass-produced cargo vessel and salvaging platform.
+  price: 1
+  category: Small
+  group: Civilian
+  shuttlePath: /Maps/Shuttles/warbird.yml
+
+- type: gameMap
+  id: Warbird
+  mapName: 'NCWL Warbird'
+  mapPath: /Maps/Shuttles/warbird.yml
+  minPlayers: 0
+  stations:
+    Warbird:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Warbird {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            SecurityOfficer: [ 0, 0 ]
+
