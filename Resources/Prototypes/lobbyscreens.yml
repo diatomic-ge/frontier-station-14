@@ -1,3 +1,19 @@
 # - type: lobbyBackground
- # id: Shinohara
+ # id: shinohara
  # background: /Textures/LobbyScreens/shinohara.png
+
+# - type: lobbyBackground
+ # id: shinohara
+ # background: /Textures/LobbyScreens/shinohara.png
+
+# - type: lobbyBackground
+  # id: shinohara
+  # background: /Textures/LobbyScreens/shinohara.png
+
+- type: lobbyBackground
+  id: shinohara
+  background: /Textures/LobbyScreens/shinohara.png
+
+- type: lobbyBackground
+  id: shinohara
+  background: /Textures/LobbyScreens/shinohara.png
