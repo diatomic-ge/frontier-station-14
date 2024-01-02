@@ -192,10 +192,10 @@
   - type: Appearance
 
 - type: entity
-  name: Homeguard Gal-Mk II
+  name: Homeguard FN-Gal Mk II
   parent: BaseWeaponRifle
   id: WeaponRifleGal
-  description: A standard commie-issue Gal rifle. Shoots .20 bullets.
+  description: A high end military grade assault rifle. Standard communist issue.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/galrifle.rsi
@@ -204,31 +204,29 @@
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Rifles/galrifle.rsi
   - type: Gun
-    fireRate: 5
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
-  - type: ChamberMagazineAmmoProvider
-    soundRack:
-      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+      path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineLightRifle
+        startingItem: MagazineRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - MagazineRifle
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: CartridgeRifle
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - CartridgeRifle
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
