@@ -19,7 +19,7 @@
     - BaseStationEvacuation
     - BaseStationAlertLevels
     - BaseStationExpeditions
-    - BaseStationSiliconLawCrewsimov
+    - BaseStationSiliconLawAsimov
     - BaseStationAllEventsEligible
     - BaseStationNanotrasen
   noSpawn: true

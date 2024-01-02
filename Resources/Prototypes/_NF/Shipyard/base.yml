@@ -74,7 +74,7 @@
   abstract: true
   components:
   - type: SiliconLawProvider
-    laws: NTDefault
+    laws: Asimov
 
 - type: entity
   id: BaseStationSiliconLawFrontierShips
