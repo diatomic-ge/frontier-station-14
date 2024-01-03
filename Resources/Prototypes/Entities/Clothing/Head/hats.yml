@@ -793,9 +793,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatLeagueAdmiralCap
-  name: worker's league admiral cap
-  description: A stylish clothing option for those in charge.
+  id: ClothingHeadleaguecap
+  name: NCWL admiral cap
+  description: A grand, stylish admiral's cap.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/leaguecap.rsi
@@ -805,3 +805,4 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+    - HamsterWearable

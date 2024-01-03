@@ -374,3 +374,21 @@
   - type: GuideHelp
     guides:
     - DNA
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesCommieAdmiral
+  name: NCWL admiral gloves
+  description: Regal white durafabric gloves with gold trim. Swanky.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/leagueadmiral.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/leagueadmiral.rsi
+  - type: GloveHeatResistance
+    heatResistance: 1400
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-durathread
+    fiberColor: fibers-regal-blue
+  - type: FingerprintMask
