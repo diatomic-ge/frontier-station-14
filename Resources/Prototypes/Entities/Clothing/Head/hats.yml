@@ -790,3 +790,18 @@
     sprite: Clothing/Head/Hats/gladiator.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/gladiator.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatLeagueAdmiralCap
+  name: worker's league admiral cap
+  description: A stylish clothing option for those in charge.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/leaguecap.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/leaguecap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
