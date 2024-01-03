@@ -790,3 +790,19 @@
     sprite: Clothing/Head/Hats/gladiator.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/gladiator.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadleaguecap
+  name: NCWL admiral cap
+  description: A grand, stylish admiral's cap.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/leaguecap.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/leaguecap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+    - HamsterWearable

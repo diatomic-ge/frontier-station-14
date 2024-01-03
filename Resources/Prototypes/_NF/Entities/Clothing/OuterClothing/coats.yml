@@ -50,3 +50,14 @@
     sprite: _NF/Clothing/OuterClothing/Misc/cardinal_robe.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodCardinalHood
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatCorporateHaori
+  name: corporate haori
+  description: A black and white Terran haori with Shinohara livery. Long live the Emperor.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/OuterClothing/Misc/shinohara_haori.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/OuterClothing/Misc/shinohara_haori.rsi

@@ -36,3 +36,14 @@
     sprite: _NF/Clothing/Uniforms/Jumpsuit/chaplain-pilgrim.rsi
   - type: Clothing
     sprite: _NF/Clothing/Uniforms/Jumpsuit/chaplain-pilgrim.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitAdmiralSecretarySuit
+  name: general secretary's suit
+  description: A formal shirt and slacks for the station's most important person.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/secretary-jumpsuit.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/secretary-jumpsuit.rsi
