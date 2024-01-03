@@ -194,7 +194,7 @@
 - type: entity
   name: Homeguard FAL Mk. II
   parent: BaseWeaponRifle
-  id: WeaponRifleLecter
+  id: WeaponRifleFAL
   description: A high end commie-issue assault rifle. Comes with a bottle opener. Shoots .20 bullets.
   components:
   - type: Sprite
