@@ -47,3 +47,58 @@
     sprite: _NF/Clothing/Uniforms/Jumpsuit/secretary-jumpsuit.rsi
   - type: Clothing
     sprite: _NF/Clothing/Uniforms/Jumpsuit/secretary-jumpsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitShinoharaJumpsuit
+  name: corporate jumpsuit
+  description: A formal Terran jumpsuit bearing Shinohara livery.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/shinohara-jumpsuit.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/shinohara-jumpsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitHomeguardTurtleneck
+  name: worker's brown turtleneck
+  description: Sleek pants and a commie-brown turtleneck to show off your Marxist fashion sense.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/homeguardturtle-jumpsuit.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/homeguardturtle-jumpsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitHomeguardTurtleneckBlack
+  name: unionmaster's black turtleneck
+  description: Sleek pants and a dark, ribbed turtleneck with a commie-brown armband for NCWL officers.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/homeguardblack-jumpsuit.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/homeguardblack-jumpsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitHomeguardTurtleneckMedic
+  name: medic's worker turtleneck
+  description: Sleek pants and a light, ribbed turtleneck with a red patch to signify League medics.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/homeguardmedic-jumpsuit.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/homeguardmedic-jumpsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitHomeguardTurtleneckEngi
+  name: worker's engineer turtleneck
+  description: Sleek pants and a light, ribbed turtleneck and overalls for League engineers.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/homeguardengi-jumpsuit.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/homeguardengi-jumpsuit.rsi
