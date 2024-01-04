@@ -32,30 +32,30 @@
 #Mercenary Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBase
-  id: ClothingOuterHardsuitMercenary # stats are of luxury mining hardsuit
-  name: mercenary hardsuit
-  description: A special suit that protects from the danger of space, employed by mercenary forces. Not certified to be blunderbuss proof.
+  id: ClothingOuterHardsuitLeagueInfantry
+  name: NCWL infantry hardsuit
+  description: A modular hardsuit intended for extravehicular patrols by NCWL patrolmen, composed of plasteel and durathread carapace plating.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi
+    sprite: _NF/Clothing/OuterClothing/Hardsuits/leagueinfantry.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi
+    sprite: _NF/Clothing/OuterClothing/Hardsuits/leagueinfantry.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.6 # Removed 10%
+    damageCoefficient: 0.6
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.8
-        Heat: 0.9 # Added 10%
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.9
         Radiation: 0.5
         Caustic: 0.8
   - type: ClothingSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.9
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMercenary
+    clothingPrototype: ClothingHeadHelmetHardsuitInfantryman

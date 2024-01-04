@@ -1,4 +1,14 @@
-﻿- files: ["sacrificetothemachine.ogg"]
+﻿- files: ["sacrificetothemachine"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "-Atrium Carceri - Sacrifice to the Machine"
   source: "https://www.youtube.com/watch?v=TjmdaFVCwt8"
+
+- files: ["fungertermina"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Miro"
+  source: "Fear and Hunger"
+
+- files: ["funger"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Miro"
+  source: "Fear and Hunger"

@@ -2,3 +2,13 @@
   id: LobbyMusic
   files:
     - /Audio/Lobby/sacrificetothemachine.ogg
+
+- type: soundCollection
+  id: LobbyMusic
+  files:
+    - /Audio/Lobby/funger.ogg
+
+- type: soundCollection
+  id: LobbyMusic
+  files:
+    - /Audio/Lobby/fungertermina.ogg
