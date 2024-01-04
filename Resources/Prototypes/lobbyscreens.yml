@@ -12,8 +12,4 @@
 
 - type: lobbyBackground
   id: sacrificetothemachine
-  background: /Textures/LobbyScreens/sacrificetothemachine.png
-
-- type: lobbyBackground
-  id: Shinohara
-  background: /Textures/LobbyScreens/shinohara.png
+  background: /Textures/LobbyScreens/skullmaxxing.png

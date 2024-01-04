@@ -52,3 +52,27 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitInfantryman
+  noSpawn: true
+  name: NCWL infantryman hardsuit helmet
+  description: Lightly armored, nanocomposite plated hardsuit helmet embedded into your own hardsuit module. Convenient!
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Head/Hardsuits/leagueinfantry.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Head/Hardsuits/leagueinfantry.rsi
+  - type: PointLight
+    color: "#ffdf00"
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
