@@ -118,3 +118,17 @@
     price: 750
   - type: StaticPrice # Frontier
     price: 50
+
+- type: entity
+  parent: ClothingOuterEVASuitBase
+  id: ClothingOuterHardsuitLeagueSoftsuitBody
+  name: NCWL worker's softsuit
+  description: A durathread softsuit designed for NCWL cosmonauts working in zero-atmosphere. Looks fucking rad.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/league_softsuit.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/league_softsuit.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85

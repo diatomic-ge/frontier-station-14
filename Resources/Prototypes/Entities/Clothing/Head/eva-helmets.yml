@@ -85,3 +85,14 @@
     sprite: Clothing/Head/Helmets/ancientvoidsuit.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/ancientvoidsuit.rsi
+
+- type: entity
+  parent: ClothingHeadEVAHelmetBase
+  id: ClothingHeadHelmetLeagueSoftsuitHelm
+  name: NCWL worker's EVA helmet
+  description: A plasteel helmet designed for extravehicular activity while working.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/league_softsuit.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/league_softsuit.rsi
