@@ -47,7 +47,6 @@
   - ChiefEngineer
   - ChiefMedicalOfficer
   - HeadOfPersonnel
-  - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
 
@@ -78,7 +77,7 @@
 - type: department
   id: Security
   description: department-Security-description
-  color: "#DE3A3A"
+  color: "#579CB3"
   roles:
   - HeadOfSecurity
   - SecurityCadet
@@ -86,7 +85,6 @@
   - SeniorOfficer
   - Detective
   - Warden
-  - PrisonGuard ##nyano
   - Prisoner ##nyano
   - Brigmedic
 

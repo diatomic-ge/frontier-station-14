@@ -1,8 +1,8 @@
-department-Cargo = Cargo
+department-Cargo = Shinohara Logistics
 department-Civilian = Civilian
-department-Command = Command
-department-Engineering = Engineering
-department-Medical = Medical
-department-Security = New Frontier Sheriff's Department
-department-Science = Science
+department-Command = New Crescent Worker's League
+department-Engineering = Shinohara Spaceworks
+department-Medical = Biodyne Pharmaceuticals
+department-Security = Colonial Minutemen
+department-Science = Biodyne Techworks
 department-Specific = Station specific

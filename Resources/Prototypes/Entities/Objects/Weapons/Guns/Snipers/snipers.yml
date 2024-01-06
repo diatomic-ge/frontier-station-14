@@ -53,10 +53,10 @@
     price: 210
 
 - type: entity
-  name: Hristov
+  name: SHI 14.5mm Hristov
   parent: BaseWeaponSniper
   id: WeaponSniperHristov
-  description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo.
+  description: A bulky anti-materiel rifle developed as part of Shinohara's 'portable anti-vessel solution' line. This thing is capable of great destruction.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi

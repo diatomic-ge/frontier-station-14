@@ -1,6 +1,6 @@
 - type: gameMap
   id: Frontier
-  mapName: 'Frontier Outpost'
+  mapName: 'New Crescent'
   mapPath: /Maps/frontier.yml
   minPlayers: 0
   maxPlayers: 100
@@ -9,7 +9,7 @@
       stationProto: StandardFrontierStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Frontier Outpost'
+          mapNameTemplate: 'New Crescent'
 #          nameGenerator:
 #            !type:NanotrasenNameGenerator
 #            prefixCreator: '14'
