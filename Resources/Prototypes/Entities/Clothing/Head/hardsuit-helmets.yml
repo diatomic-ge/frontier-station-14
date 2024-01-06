@@ -693,3 +693,29 @@
     sprite: Clothing/Head/Hardsuits/clown.rsi
     equipSound: /Audio/Mecha/mechmove03.ogg
     unequipSound: /Audio/Effects/Emotes/parp1.ogg
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetJuggernautLeague
+  noSpawn: true
+  name: HERMES Mk I juggernaut helmet
+  description: A little space-worthy protection for your fragile skull. Developed by the NCWL and outfitted with state-of-the-art visor electronics.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hardsuits/commienaut.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hardsuits/commienaut.rsi
+  - type: PointLight
+    color: "#ff4433"
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.80
+        Piercing: 0.80
+        Heat: 0.80
+        Radiation: 0.80
+        Caustic: 0.95
